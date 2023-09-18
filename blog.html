@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+       <!-- header part start -->
+       <header class="px-3 py-3 mx-3  my-3">
+        <div class="navbar bg-base-100 bg-blue-100 ">
+            <div class="navbar-start">
+              <div>
+                <p class="logo">Interactive </p>
+              <p class="logo-text">Geometry Genius</span>
+              </div>
+            </div>
+            <div class="navbar-end">
+              <a href="index.html" class="btn btn-primery">Home</a>
+            </div>
+          </div>
+    </header>
+    <!-- header part end -->
+
+
+    <!-- main part -->
+    <main class="mx-6">
+      <div class="card w-full bg-base-100 shadow-xl mb-3">
+         <div class="card-body">
+           <h2 class="card-title">
+            1. What is DOM and what is the purpose of DOM?   
+         </h2>
+           <p>
+            Ans: DOM means Document Object Model. 
+            It represents the page so that programs can change the document structure, style, and content.
+           </p>
+           
+         </div>
+       </div>
+
+
+       <div class="card w-full bg-base-100 shadow-xl  mb-3">
+         <div class="card-body">
+           <h2 class="card-title">
+            2. How will you select HTML elements using DOM? Name the DOM methods.
+         </h2>
+           <p>
+            Ans:  There are 5 ways we can select elements in a DOM using selectors.
+            <ul>
+               <li>getElementsByTagName()</li>
+               <li> getElementsByClassName()</li>
+               <li> getElementById()</li>
+               <li> querySelector()</li>
+               <li>querySelectorAll()</li>
+            </ul>
+           </p>
+           
+         </div>
+       </div>
+
+       
+       <div class="card w-full bg-base-100 shadow-xl  mb-3">
+         <div class="card-body">
+           <h2 class="card-title">
+            3. What is event bubble?
+         </h2>
+           <p>
+            Ans: Event bubbling is a type of DOM event propagation where the event first triggers on the innermost target element, and then successively triggers on the ancestors of the target element in the same nesting hierarchy till it reaches the outermost DOM element or document object
+           </p>
+           
+         </div>
+       </div>
+
+         
+       <div class="card w-full bg-base-100 shadow-xl  mb-3">
+         <div class="card-body">
+           <h2 class="card-title">
+            4. What is a callback function and why will you use it?
+         </h2>
+           <p>
+            Ans: Callback function is a function which pass as parameters to other functions and call them inside the outer functions.
+            <br>
+            Callback function make sure that a function is not going to run before a task is completed but will run right after the task has completed. It helps us develop asynchronous JavaScript code and keeps us safe from problems and errors.
+         </p>
+           
+         </div>
+       </div>
+       
+    </main>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

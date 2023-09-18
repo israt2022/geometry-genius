@@ -1,0 +1,26 @@
+body{
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+}
+
+ 
+.logo{
+   
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;    
+    color: rgba(17, 17, 17, 0.8);
+}
+
+.logo-text{ 
+    font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+    letter-spacing: 0.05em;
+    color: rgba(17, 17, 17, 0.6);
+}
+
+.box-item img{
+    height: 194px;
+}
+ 
